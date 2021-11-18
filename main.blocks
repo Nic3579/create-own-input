@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="[,@T.iBC5ys]y@u.[9SU" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="yd@cZ5,8ta}1{h4m#vu7"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="tr-8BOYF.zT_dPR{:TW("><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_digital_pin" id="xfjiz,|Qg%#lwFh:D~NZ"><field name="name">DigitalPin.P0</field></block></value><value name="B"><shadow type="math_number" id="KhH]~zk]f)-6d(0{3guk"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="aE[|08.Tv`29WcorQR~0"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="dFeWAT`TwN9U*GM0byW^"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # # # # 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></statement></block></xml>
